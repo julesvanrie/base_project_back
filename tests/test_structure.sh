@@ -1,13 +1,7 @@
 warnings=0
 errors=0
 
-echo "Running tests for a front end structure";
-
-# Execute at the right level (should not happen when going through make though)
-if [[ ! -e "Makefile" ]]; then
-  echo -e "\e[0;31mERROR:   \e[0mYou should execute the tests at the level of your Makefile\e[0m";
-  exit;
-fi
+echo "Running tests for the back end structure";
 
 # Check if folder has got a proper name
 if [[ $PWD =~ back-end ]]; then

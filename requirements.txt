@@ -1,0 +1,19 @@
+# data science
+numpy<2.0.0
+pandas==2.1.4
+
+# Uncomment if you use sklearn
+# scikit-learn==1.3.2
+
+# Install the correct TensorFlow version
+# Uncomment if you use TensorFlow
+# tensorflow==2.16.1    # For both Intel and Apple silicon
+# keras==3.3.3
+
+# Google Cloud
+# Uncomment if you use Google Cloud Storage
+# google-cloud-storage
+
+# API
+fastapi
+uvicorn

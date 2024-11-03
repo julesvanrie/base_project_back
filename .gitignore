@@ -1,0 +1,47 @@
+# Standard python ignores
+*.egg-info
+.coverage
+.ipynb_checkpoints
+**/__pycache__/
+.python-version
+*.pyc
+**/build
+
+# Ignore these macos generated files
+.DS_Store
+
+# Ignore these Windows generated files
+*Zone.Identifier
+
+# Ignore VS Code generated files
+*.vscode
+
+# Raw data
+raw_data/
+*.csv
+*.sqlite
+*.zip
+
+# Data in the package
+# Add files you want to include in the git repo using `git add -f file_name`
+data/
+
+# Saved models
+models/
+*.joblib
+*.h5
+
+# Any pickle files
+*.pickle
+*.pckl
+*.pkl
+
+# Credentials (or files with potentially credentials inside)
+.env
+.env.yaml
+.credentials
+secrets.toml
+*.json
+
+# User defined extras
+# Complete to your desire

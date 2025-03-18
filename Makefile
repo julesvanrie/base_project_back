@@ -64,6 +64,9 @@ docker_run_local_interactively:
 
 DOCKER_IMAGE_PATH := $(GCP_REGION)-docker.pkg.dev/$(GCP_PROJECT)/$(DOCKER_REPO_NAME)/$(DOCKER_IMAGE_NAME)
 
+docker_show_image_path:
+	@echo $(DOCKER_IMAGE_PATH)
+
 docker_build:
 	docker build \
 		--platform linux/amd64 \

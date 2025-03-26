@@ -3,10 +3,10 @@
 #      a slim or tensorflow base
 
 #      Standard version
-FROM python:3.10
+FROM python:3.12
 
 #      Slim version
-# FROM python:3.10-slim
+# FROM python:3.12-slim
 
 #      Tensorflow version (attention: won't run on Apple Silicon)
 # FROM tensorflow/tensorflow:2.16.1
@@ -16,7 +16,7 @@ COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy oour code
+# Copy our code
 COPY packagename packagename
 COPY api api
 
